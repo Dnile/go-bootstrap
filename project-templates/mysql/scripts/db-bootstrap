@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-MYSQL_HOST=${MYSQL_TCP_PORT:-localhost}
+MYSQL_HOST=${MYSQL_TCP_PORT:-127.0.0.1}
 MYSQL_TCP_PORT=${MYSQL_TCP_PORT:-3306}
 MYSQL_USER=${MYSQL_USER:-root}
 MYSQL_PWD=${MYSQL_PWD:-""}
